@@ -3,7 +3,7 @@ import { motion } from 'framer-motion'
 
 const Navbar = () => {
   return (
-    <header className="bg-surface/80 backdrop-blur-md border-b border-white/10">
+    <header className=" backdrop-blur-md border-b border-white/10">
       <div className="flex items-center justify-between h-16 px-6">
         <div className="flex items-center gap-4">
           <motion.h2
