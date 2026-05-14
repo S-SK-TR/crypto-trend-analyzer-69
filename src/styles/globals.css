@@ -1,6 +1,6 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+/* @tailwind base — centralized in src/index.css */
+
+
 
 @layer base {
   :root {
@@ -66,5 +66,16 @@
 
   .bento-item-lg {
     @apply md:col-span-3;
+  }
+}
+
+/* Mobile-specific styles */
+@media (max-width: 768px) {
+  .glass-card {
+    @apply border-white/15;
+  }
+
+  .glass-card:hover {
+    @apply bg-white/15;
   }
 }
