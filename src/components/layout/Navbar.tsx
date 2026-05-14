@@ -3,13 +3,13 @@ import { motion } from 'framer-motion'
 
 const Navbar = () => {
   return (
-    <header className="bg-surface/80 d-flex backdrop-blur-md border-b border-white/10">
+    <header className="bg-surface/80 backdrop-blur-md border-b border-white/10">
       <div className="flex items-center justify-between h-16 px-6">
         <div className="flex items-center gap-4">
           <motion.h2
             initial={{ opacity: 0, y: -10 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.2 }}
+            transition={{ delay: 0.5 }}
             className="text-xl font-semibold text-text-primary font-display"
           >
             Dashboard
