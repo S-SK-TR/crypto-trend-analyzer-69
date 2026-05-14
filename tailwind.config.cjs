@@ -12,6 +12,7 @@ module.exports = {
         accent: '#8b5cf6',
         background: '#0f172a',
         surface: '#1e293b',
+        border: '#334155',
         text: {
           primary: '#f8fafc',
           secondary: '#cbd5e1'
