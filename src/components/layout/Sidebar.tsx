@@ -1,13 +1,13 @@
 import { NavLink } from 'react-router-dom'
 import { motion } from 'framer-motion'
-import { Home, BarChart2, TrendingUp, Strategy, Settings } from 'lucide-react'
+import { Home, BarChart2, TrendingUp, Target, Settings } from 'lucide-react'
 
 const Sidebar = () => {
   const navItems = [
     { to: '/dashboard', icon: Home, label: 'Dashboard' },
     { to: '/market', icon: BarChart2, label: 'Market' },
     { to: '/analysis', icon: TrendingUp, label: 'Analysis' },
-    { to: '/strategy', icon: Strategy, label: 'Strategy' },
+    { to: '/strategy', icon: Target, label: 'Strategy' },
     { to: '/settings', icon: Settings, label: 'Settings' }
   ]
 
