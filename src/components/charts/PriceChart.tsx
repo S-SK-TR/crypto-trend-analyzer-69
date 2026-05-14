@@ -1,6 +1,5 @@
 import { useEffect, useRef } from 'react'
 import { Chart, registerables } from 'chart.js'
-import GlassCard from '../ui/GlassCard'
 
 interface PriceChartProps {
   data: number[]
@@ -99,11 +98,9 @@ const PriceChart = ({ data, labels }: PriceChartProps) => {
   }, [data, labels])
 
   return (
-    <GlassCard className="h-full">
-      <div className="h-full">
-        <canvas ref={chartRef} className="w-full h-full" />
-      </div>
-    </GlassCard>
+    <div className="w-full h-full">
+      <canvas ref={chartRef} className="w-full h-full" />
+    </div>
   )
 }
 
